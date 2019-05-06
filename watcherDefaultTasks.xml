@@ -14,7 +14,7 @@
           <array />
         </option>
         <option name="outputFromStdout" value="false" />
-        <option name="program" value="$ProjectFileDir$/node_modules/.bin/prettier" />
+        <option name="program" value="$USER_HOME$/AppData/Roaming/npm/prettier.cmd" />
         <option name="runOnExternalChanges" value="true" />
         <option name="scopeName" value="Project Files" />
         <option name="trackOnlyRoot" value="false" />
@@ -34,7 +34,7 @@
           <array />
         </option>
         <option name="outputFromStdout" value="false" />
-        <option name="program" value="$ProjectFileDir$/node_modules/.bin/prettier" />
+        <option name="program" value="$USER_HOME$/AppData/Roaming/npm/prettier.cmd" />
         <option name="runOnExternalChanges" value="true" />
         <option name="scopeName" value="Project Files" />
         <option name="trackOnlyRoot" value="false" />
@@ -54,7 +54,7 @@
           <array />
         </option>
         <option name="outputFromStdout" value="false" />
-        <option name="program" value="$ProjectFileDir$/node_modules/.bin/prettier" />
+        <option name="program" value="$USER_HOME$/AppData/Roaming/npm/prettier.cmd" />
         <option name="runOnExternalChanges" value="true" />
         <option name="scopeName" value="Project Files" />
         <option name="trackOnlyRoot" value="false" />
@@ -62,7 +62,7 @@
         <envs />
       </TaskOptions>
       <TaskOptions>
-        <option name="arguments" value="--write $FilePathRelativeToProjectRoot$" />
+        <option name="arguments" value="--write --trailing-comma es5 $FilePathRelativeToProjectRoot$" />
         <option name="checkSyntaxErrors" value="true" />
         <option name="description" />
         <option name="exitCodeBehavior" value="ERROR" />
