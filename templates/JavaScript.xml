@@ -100,14 +100,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="clm" value="console.log(&quot;%c $MODULE_VAR$&quot;, &quot;color: magenta;&quot;, $VAR$)$END$" description="console.log() magnta" toReformat="true" toShortenFQNames="true">
+  <template name="clm" value="console.log(`%c $MODULE_VAR$`, &quot;color: magenta;&quot;, $VAR$)$END$" description="console.log() magnta" toReformat="true" toShortenFQNames="true">
     <variable name="MODULE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="clo" value="console.log(&quot;%c $MODULE_VAR$&quot;, &quot;color: orange&quot;, $VAR$)$END$" description="console.log() orange" toReformat="true" toShortenFQNames="true">
+  <template name="clo" value="console.log(`%c $MODULE_VAR$`, &quot;color: orange&quot;, $VAR$)$END$" description="console.log() orange" toReformat="true" toShortenFQNames="true">
     <variable name="MODULE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -115,6 +115,12 @@
     </context>
   </template>
   <template name="clt" value="console.table($MODULE_VAR$)$END$" description="console.table" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$$" value="${$MODULE_VAR$}$END$" description="${}" toReformat="true" toShortenFQNames="true">
     <variable name="MODULE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
