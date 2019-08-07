@@ -18,6 +18,10 @@
           <option name="url" value="https://gitlab.com/fulcrumy/cybersenshi-client.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.com" />
+          <option name="userName" value="dmytrokhutornoi@gmail.com" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\FR" />
