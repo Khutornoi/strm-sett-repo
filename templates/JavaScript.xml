@@ -126,4 +126,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="&gt;&gt;&gt;" value="($ARGs$)=&gt;(&#10;    $END$&#10;)" description="()=&gt;()" toReformat="true" toShortenFQNames="true">
+    <variable name="ARGs" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
