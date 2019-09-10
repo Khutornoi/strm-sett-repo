@@ -26,6 +26,10 @@
           <option name="url" value="https://gitlab.com/fulcrumy/cybersenshi-lp.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/fulcrumy/subbxi/frontend/subbxi_app.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\FR" />
