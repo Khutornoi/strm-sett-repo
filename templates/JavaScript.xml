@@ -162,4 +162,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="df" value="display: 'flex',&#10;flexDirection: '$DIRECTION$',&#10;width: '$WIDTH$',&#10;height: '$HEIGHT$',&#10;alignItems: 'center',&#10;justifyContent: 'center',$END$&#10;" description="display: 'flex'" toReformat="true" toShortenFQNames="true">
+    <variable name="DIRECTION" expression="enum(&quot;row&quot;,&quot;column&quot;)" defaultValue="&quot;row&quot;" alwaysStopAt="true" />
+    <variable name="WIDTH" expression="" defaultValue="&quot;100%&quot;" alwaysStopAt="true" />
+    <variable name="HEIGHT" expression="" defaultValue="&quot;100%&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
