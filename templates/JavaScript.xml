@@ -101,15 +101,16 @@
     </context>
   </template>
   <template name="clm" value="console.log(`%c $MODULE_VAR$`, &quot;color: magenta;&quot;, $VAR$)$END$" description="console.log() magenta" toReformat="true" toShortenFQNames="true">
-    <variable name="MODULE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="" defaultValue="VAR" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="clo" value="console.log(`%c $MODULE_VAR$`, &quot;color: orange&quot;, $VAR$)$END$" description="console.log() orange" toReformat="true" toShortenFQNames="true">
-    <variable name="MODULE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="clo" value="console.log(`%c $FNAME$-&gt;$MODULE_VAR$=&gt;`, &quot;color: orange&quot;, $VAR$)$END$" description="console.log() orange" toReformat="true" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="" defaultValue="VAR" alwaysStopAt="true" />
+    <variable name="FNAME" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -133,8 +134,8 @@
     </context>
   </template>
   <template name="clll" value="console.log(`%c lifecycle: $MODULE_VAR$`, &quot;color: indigo;&quot;, $VAR$)$END$" description="console.log() lifecycle" toReformat="true" toShortenFQNames="true">
-    <variable name="MODULE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="" defaultValue="VAR" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -171,15 +172,15 @@
     </context>
   </template>
   <template name="clc" value="console.log(`%c $MODULE_VAR$`, &quot;color: cyan;&quot;, $VAR$)$END$" description="console.log() cyan" toReformat="true" toShortenFQNames="true">
-    <variable name="MODULE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="" defaultValue="VAR" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="cly" value="console.log(`%c $MODULE_VAR$`, &quot;color: yellow;&quot;, $VAR$)$END$" description="console.log() yellow" toReformat="true" toShortenFQNames="true">
-    <variable name="MODULE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="" defaultValue="VAR" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
