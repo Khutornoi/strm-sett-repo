@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="readme-app-config.md" type="PLAIN_TEXT" />
       <mapping pattern="translation" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
       <removed_mapping ext="gradle" approved="true" type="PLAIN_TEXT" />
