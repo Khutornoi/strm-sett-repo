@@ -58,6 +58,14 @@
           <option name="url" value="https://gitlab.com/questionsapp/questions-mobile-app.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/brunohaag/hyfa.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="dmytro@fulcrum.rocks" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\FR" />
