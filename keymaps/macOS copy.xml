@@ -1,10 +1,15 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="ChangesView.UnshelveSilently" />
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="shift space" />
   </action>
   <action id="Console.TableResult.SelectRow" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="ShowUmlDiagramPopup" />
+  <action id="StringManipulation.SwitchStyleAction">
+    <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="alt g" />
