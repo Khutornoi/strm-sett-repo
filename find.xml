@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="SRC" />
-    <option name="defaultScopeName" value="SRC" />
+    <option name="customScope" value="FUNC" />
+    <option name="defaultScopeName" value="FUNC" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="SRC" />
+    <option name="SEARCH_SCOPE" value="FUNC" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.xml</mask>
