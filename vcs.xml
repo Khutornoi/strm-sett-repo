@@ -82,9 +82,21 @@
           <option name="url" value="https://github.com/software-mansion/react-native-gesture-handler/tree/master/Example" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://dmytrokhutornoi@bitbucket.org/gringaming/grin-native.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://bitbucket.org" />
+          <option name="userName" value="dmytrokhutornoi" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@bitbucket.org:gringaming/grin-native.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/Sandbox" />
+    <option name="cloneParentDir" value="$USER_HOME$/FR" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
