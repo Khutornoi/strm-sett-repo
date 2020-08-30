@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".prettierignore" type="IgnoreLang file" />
       <mapping pattern="passwords" type="PLAIN_TEXT" />
       <mapping pattern="translation" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
