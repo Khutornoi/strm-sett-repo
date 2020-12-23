@@ -214,4 +214,16 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="tt" value="// Translation&#10;const {t} = useTranslation();&#10;$END$" description="// Translation" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rrs" value="  // Redux&#10;  const dispatch = useDispatch();&#10;  const $VAR$ = useSelector((store: AppState) =&gt; store.$BRANCH$);&#10;$END$" description="// Redux D+S" toReformat="true" toShortenFQNames="true">
+    <variable name="BRANCH" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
