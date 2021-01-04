@@ -1,6 +1,7 @@
 <application>
   <component name="ExternalResourceManagerImpl">
     <resource url="http://soap.sforce.com/2006/04/metadata" location="$APPLICATION_PLUGINS_DIR$/IlluminatedCloud2/lib/IlluminatedCloud.jar!/xsd/metadata.xsd" />
+    <resource url="http://www.apple.com/DTDs/PropertyList-1.0.dtd" location="$USER_HOME$/Library/Caches/PhpStorm2019.3/extResources/c3961c84_PropertyList-1.0.dtd" />
     <resource url="urn:metadata.tooling.soap.sforce.com" location="$APPLICATION_PLUGINS_DIR$/IlluminatedCloud2/lib/IlluminatedCloud.jar!/xsd/metadata.xsd" />
   </component>
 </application>
