@@ -236,8 +236,8 @@
     </context>
   </template>
   <template name="cle" value="console.log(`-%c ERROR: $FNAME$-&gt;$MODULE_VAR$=&gt;`, &quot;color: orangeRed&quot;, $VAR$)$END$" description="console.log() ERROR" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="MODULE_VAR" expression="" defaultValue="VAR" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="&quot;e&quot;" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="" defaultValue="VAR" alwaysStopAt="false" />
     <variable name="FNAME" expression="complete()" defaultValue="jsMethodName()" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
