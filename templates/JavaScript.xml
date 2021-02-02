@@ -235,4 +235,20 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="cle" value="console.log(`-%c ERROR: $FNAME$-&gt;$MODULE_VAR$=&gt;`, &quot;color: orangeRed&quot;, $VAR$)$END$" description="console.log() ERROR" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="" defaultValue="VAR" alwaysStopAt="true" />
+    <variable name="FNAME" expression="complete()" defaultValue="jsMethodName()" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cli" value="console.log(`-%c INFO: $FNAME$-&gt;$MODULE_VAR$=&gt;`, &quot;color: dodgerBlue&quot;, $VAR$)$END$" description="console.log() INFO" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="" defaultValue="VAR" alwaysStopAt="true" />
+    <variable name="FNAME" expression="complete()" defaultValue="jsMethodName()" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
