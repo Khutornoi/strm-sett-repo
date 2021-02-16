@@ -2,7 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern=".prettierignore" type="IgnoreLang file" />
-      <removed_mapping ext="graphqlconfig" type="JSON" />
+      <mapping ext="graphqlconfig" type="JSON" />
       <mapping pattern="passwords" type="PLAIN_TEXT" />
       <mapping pattern="translation" type="PLAIN_TEXT" />
       <mapping ext="keystore" type="PLAIN_TEXT" />
